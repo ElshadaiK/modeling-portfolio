@@ -966,3 +966,43 @@ button { font: inherit; }
   .intro { display: none; }
   .image-reveal::after { display: none; }
 }
+
+
+.footer-dev-link {
+  position: relative;
+  color: rgba(255,255,255,.8);
+  transition: color .3s ease;
+}
+
+.footer-dev-link:hover {
+  color: var(--accent);
+}
+
+.footer-dev-link::after {
+  content: " SWE";
+  position: absolute;
+  left: 50%;
+  top: -22px;
+
+  transform: translate(-50%, 8px);
+
+  padding: .3rem .45rem;
+
+  background: var(--accent);
+  color: var(--ink);
+
+  font-size: .55rem;
+  letter-spacing: .12em;
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition:
+    opacity .25s ease,
+    transform .25s ease;
+}
+
+.footer-dev-link:hover::after {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
