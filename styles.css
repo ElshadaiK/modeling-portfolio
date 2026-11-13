@@ -449,7 +449,7 @@ button {
 }
 
 .project--wide {
-  grid-column: 1 / 8;
+  grid-column: 18 / 8;
 }
 .project--tall {
   grid-column: 9 / 13;
@@ -1143,3 +1143,4 @@ button {
   opacity: 1;
   transform: translate(-50%, 0);
 }
+

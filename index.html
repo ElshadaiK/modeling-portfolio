@@ -1,353 +1,668 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#0b0b0b" />
-  <meta name="description" content="Elshadai Tegegn — Fashion, commercial, lifestyle and runway model based in Newark, NJ, available for NYC, New Jersey and travel." />
-  <title>Model - Elsh</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0b0b" />
 
-  <!-- Editorial type pairing -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Italiana&display=swap" rel="stylesheet">
+    <meta
+      name="description"
+      content="Elshadai Tegegn (Elsh) — Newark-based fashion, runway, commercial and lifestyle model available for bookings in New York City, New Jersey and beyond."
+    />
 
-  <link rel="stylesheet" href="styles.css" />
-</head>
+    <title>Elshadai Tegegn (Elsh) | Fashion & Runway Model</title>
 
-<body>
-  <!-- cinematic intro -->
-  <div class="intro" aria-hidden="true">
-    <div class="intro__panel intro__panel--top"></div>
-    <div class="intro__panel intro__panel--bottom"></div>
-    <div class="intro__wordmark">
-      <span>ELSH'S</span>
-      <span>PORTFOLIO</span>
-    </div>
-  </div>
+    <!-- Social sharing metadata -->
+    <meta
+      property="og:title"
+      content="Elshadai Tegegn | Fashion & Runway Model"
+    />
+    <meta
+      property="og:description"
+      content="Explore the fashion, runway, commercial and editorial modeling portfolio of Elshadai Tegegn."
+    />
+    <meta property="og:type" content="website" />
 
-  <!-- custom cursor -->
-  <div class="cursor" aria-hidden="true"></div>
-  <div class="cursor-follower" aria-hidden="true"></div>
+    <!-- Add og:image once your public portfolio URL is finalized.
+         It must use a complete HTTPS URL. -->
 
-  <div class="noise" aria-hidden="true"></div>
-  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    <!-- Editorial typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Italiana&display=swap"
+      rel="stylesheet"
+    />
 
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Elshadai Tegegn home">ELSH<span>.</span></a>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
-      <span></span><span></span>
-    </button>
+  <body>
+    <!-- CINEMATIC INTRO -->
+    <div class="intro" aria-hidden="true">
+      <div class="intro__panel intro__panel--top"></div>
+      <div class="intro__panel intro__panel--bottom"></div>
 
-    <nav class="nav" aria-label="Primary">
-      <a href="#work">Work</a>
-      <a href="#runway">Runway</a>
-      <a href="#digitals">Digitals</a>
-      <a href="#about">About</a>
-      <a href="#contact" class="nav__cta">Book me</a>
-    </nav>
-  </header>
-
-  <main id="top">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero__media" data-parallax="0.12">
-        <img src="assets/images/hero.jpg" alt="Elshadai Tegegn fashion portrait" />
+      <div class="intro__wordmark">
+        <span>ELSH'S</span>
+        <span>PORTFOLIO</span>
       </div>
+    </div>
 
-      <div class="hero__veil"></div>
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor" aria-hidden="true"></div>
+    <div class="cursor-follower" aria-hidden="true"></div>
 
-      <div class="hero__content">
-        <p class="eyebrow reveal-text">NEWARK • NYC • AVAILABLE TO TRAVEL</p>
+    <!-- TEXTURE / SCROLL PROGRESS -->
+    <div class="noise" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true">
+      <span></span>
+    </div>
 
-        <h1 class="hero__title" aria-label="Elshadai Tegegn">
-          <span class="line"><span>Elsh</span></span>
-        </h1>
+    <!-- HEADER -->
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Elshadai Tegegn home">
+        ELSH<span>.</span>
+      </a>
 
-        <div class="hero__bottom">
-          <p class="hero__descriptor reveal-up">
-            Fashion / Commercial / Lifestyle / Runway
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="primary-nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#runway">Runway</a>
+        <a href="#studio">Editorial</a>
+        <a href="#digitals">Digitals</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav__cta">Book me</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <!-- ==================================================
+           HERO — UNCHANGED
+      ================================================== -->
+      <section class="hero">
+        <div class="hero__media" data-parallax="0.12">
+          <img
+            src="assets/images/hero.jpg"
+            alt="Elshadai Tegegn fashion portrait"
+            fetchpriority="high"
+          />
+        </div>
+
+        <div class="hero__veil"></div>
+
+        <div class="hero__content">
+          <p class="eyebrow reveal-text">NEWARK • NYC • AVAILABLE TO TRAVEL</p>
+
+          <h1 class="hero__title" aria-label="Elshadai Tegegn">
+            <span class="line">
+              <span>Elsh</span>
+            </span>
+          </h1>
+
+          <div class="hero__bottom">
+            <p class="hero__descriptor reveal-up">
+              Fashion / Commercial / Lifestyle / Runway
+            </p>
+
+            <a
+              class="circle-link magnetic"
+              href="#work"
+              aria-label="Explore portfolio"
+            >
+              <span>Explore</span>
+              <span class="circle-link__arrow">↘</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__index">01 / PORTFOLIO</div>
+      </section>
+
+      <!-- ==================================================
+           MARQUEE
+      ================================================== -->
+      <section class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>RUNWAY</span>
+          <i>✦</i>
+          <span>FASHION</span>
+          <i>✦</i>
+          <span>COMMERCIAL</span>
+          <i>✦</i>
+          <span>LIFESTYLE</span>
+          <i>✦</i>
+
+          <span>RUNWAY</span>
+          <i>✦</i>
+          <span>FASHION</span>
+          <i>✦</i>
+          <span>COMMERCIAL</span>
+          <i>✦</i>
+          <span>LIFESTYLE</span>
+          <i>✦</i>
+        </div>
+      </section>
+
+      <!-- ==================================================
+           SELECTED WORK
+      ================================================== -->
+      <section class="work section" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+
+          <h2>
+            Presence.<br />
+            <em>Movement.</em> Story.
+          </h2>
+
+          <p class="section-heading__aside">
+            Editorial images, cultural fashion, runway and brand-facing work.
+          </p>
+        </div>
+
+        <div class="editorial-grid">
+          <!-- 01 NEWARK FASHION NIGHT OUT -->
+          <article class="project project--portrait">
+            <a
+              href="#runway"
+              class="project__image image-reveal"
+              aria-label="Explore Newark Fashion Night Out runway work"
+            >
+              <img
+                src="assets/images/newark-fashion-night-out-1.JPEG"
+                alt="Elshadai modeling at Newark Fashion Night Out"
+                loading="lazy"
+              />
+
+              <div class="project__hover">
+                <span>View runway</span>
+                <span>↗</span>
+              </div>
+            </a>
+
+            <div class="project__meta">
+              <div>
+                <h3>Newark Fashion Night Out</h3>
+                <p>Runway / Fashion • 2026</p>
+              </div>
+
+              <span>01</span>
+            </div>
+          </article>
+
+          <!-- 02 STUDIO EDITORIAL -->
+          <article class="project project--wide">
+            <a
+              href="#studio"
+              class="project__image image-reveal"
+              aria-label="Explore studio editorial portraits"
+            >
+              <img
+                src="assets/images/studio-1.JPG"
+                alt="Elshadai Tegegn studio fashion editorial"
+                loading="lazy"
+              />
+
+              <div class="project__hover">
+                <span>View editorial</span>
+                <span>↗</span>
+              </div>
+            </a>
+
+            <div class="project__meta">
+              <div>
+                <h3>Studio Editorial</h3>
+                <p>Fashion / Editorial • 2026</p>
+              </div>
+
+              <span>02</span>
+            </div>
+          </article>
+
+          <!-- 03 POP SMOKE GALA -->
+          <article class="project project--portrait">
+            <a
+              href="#runway"
+              class="project__image image-reveal"
+              aria-label="Explore Pop Smoke Gala runway work"
+            >
+              <img
+                src="assets/images/pop-smoke-gala-01.jpg"
+                alt="Pop Smoke Gala runway appearance"
+                loading="lazy"
+              />
+
+              <div class="project__hover">
+                <span>View runway</span>
+                <span>↗</span>
+              </div>
+            </a>
+
+            <div class="project__meta">
+              <div>
+                <h3>Pop Smoke Gala</h3>
+                <p>Runway / Gala • 2026</p>
+              </div>
+
+              <span>03</span>
+            </div>
+          </article>
+
+          <!-- 04 AMAZON SUSTAINABILITY -->
+          <article class="project project--landscape">
+            <a
+              href="#runway"
+              class="project__image image-reveal"
+              aria-label="Explore Amazon Sustainability Fashion Show"
+            >
+              <img
+                src="assets/images/amazon-sustainability-01.JPG"
+                alt="Amazon Sustainability Fashion Show"
+                loading="lazy"
+              />
+
+              <div class="project__hover">
+                <span>View runway</span>
+                <span>↗</span>
+              </div>
+            </a>
+
+            <div class="project__meta">
+              <div>
+                <h3>Amazon Sustainability Fashion Show</h3>
+                <p>Fashion / Runway • June 2026</p>
+              </div>
+
+              <span>04</span>
+            </div>
+          </article>
+
+          <!-- 05 ECMAA -->
+          <article class="project project--portrait">
+            <a
+              href="#runway"
+              class="project__image image-reveal"
+              aria-label="Explore ECMAA Ethiopian New Year Fashion Show"
+            >
+              <img
+                src="assets/images/ecmaa-01.png"
+                alt="ECMAA Ethiopian New Year Fashion Show"
+                loading="lazy"
+              />
+
+              <div class="project__hover">
+                <span>View runway</span>
+                <span>↗</span>
+              </div>
+            </a>
+
+            <div class="project__meta">
+              <div>
+                <h3>ECMAA Ethiopian New Year Fashion Show</h3>
+                <p>Runway / Cultural Fashion • September 2025</p>
+              </div>
+
+              <span>05</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ==================================================
+           RUNWAY — HORIZONTAL SCROLL ARCHIVE
+      ================================================== -->
+      <section class="runway" id="runway">
+        <div class="runway__sticky">
+          <div class="runway__intro">
+            <p class="eyebrow">RUNWAY ARCHIVE</p>
+
+            <h2>
+              Moments that<br />
+              hold the room.
+            </h2>
+
+            <p>Scroll to move through the runway timeline.</p>
+          </div>
+
+          <div class="runway__track">
+            <!-- NEWARK FASHION NIGHT OUT / WALK -->
+            <article class="runway-card">
+              <div class="runway-card__image">
+                <img
+                  src="assets/images/newark-fashion-night-out-3.JPEG"
+                  alt="Elshadai walking at Newark Fashion Night Out"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="runway-card__copy">
+                <span>2026</span>
+                <h3>Newark Fashion Night Out</h3>
+                <p>Runway / Walk</p>
+              </div>
+            </article>
+
+            <!-- NEWARK FASHION NIGHT OUT / PRESENTATION -->
+            <article class="runway-card">
+              <div class="runway-card__image">
+                <img
+                  src="assets/images/newark-fashion-night-out-2.JPEG"
+                  alt="Elshadai presenting a runway look at Newark Fashion Night Out"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="runway-card__copy">
+                <span>2026</span>
+                <h3>Newark Fashion Night Out</h3>
+                <p>Runway / Presentation</p>
+              </div>
+            </article>
+
+            <!-- POP SMOKE GALA -->
+            <article class="runway-card">
+              <div class="runway-card__image">
+                <img
+                  src="assets/images/pop-smoke-gala-02.jpg"
+                  alt="Pop Smoke Gala runway look"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="runway-card__copy">
+                <span>2026</span>
+                <h3>Pop Smoke Gala</h3>
+                <p>Runway model</p>
+              </div>
+            </article>
+
+            <!-- AMAZON / LOOK 01 -->
+            <article class="runway-card">
+              <div class="runway-card__image">
+                <img
+                  src="assets/images/amazon-sustainability-02.JPG"
+                  alt="Amazon Sustainability Fashion Show runway look"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="runway-card__copy">
+                <span>JUN 2026</span>
+                <h3>Amazon Sustainability</h3>
+                <p>Runway look</p>
+              </div>
+            </article>
+
+            <!-- AMAZON / LOOK 02 -->
+            <article class="runway-card">
+              <div class="runway-card__image">
+                <img
+                  src="assets/images/amazon-sustainability-04.JPG"
+                  alt="Amazon Sustainability Fashion Show backstage look"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="runway-card__copy">
+                <span>JUN 2026</span>
+                <h3>Amazon Sustainability</h3>
+                <p>Behind the runway</p>
+              </div>
+            </article>
+
+            <!-- ECMAA / LOOK 01 -->
+            <article class="runway-card">
+              <div class="runway-card__image">
+                <img
+                  src="assets/images/ecmaa-02.png"
+                  alt="ECMAA Ethiopian New Year fashion show look"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="runway-card__copy">
+                <span>SEP 2025</span>
+                <h3>ECMAA Ethiopian New Year</h3>
+                <p>Ethiopian New Year runway</p>
+              </div>
+            </article>
+
+            <!-- ECMAA / LOOK 02 -->
+            <article class="runway-card">
+              <div class="runway-card__image">
+                <img
+                  src="assets/images/ecmaa-03.png"
+                  alt="ECMAA Ethiopian New Year cultural fashion look"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="runway-card__copy">
+                <span>SEP 2025</span>
+                <h3>ECMAA Ethiopian New Year</h3>
+                <p>Cultural fashion look</p>
+              </div>
+            </article>
+
+            <!-- END QUOTE -->
+            <article class="runway-card runway-card--quote">
+              <div>
+                <span class="quote-mark">“</span>
+
+                <p>
+                  Different rooms.<br />
+                  Same presence.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- ==================================================
+           DIGITALS / POLAROIDS
+      ================================================== -->
+      <section class="digitals section" id="digitals">
+        <div class="section-heading section-heading--compact">
+          <p class="eyebrow">DIGITALS / POLAROIDS</p>
+
+          <h2>
+            Clean. Current.<br />
+            <em>Unfiltered.</em>
+          </h2>
+        </div>
+
+        <div class="digitals-grid">
+          <!-- FRONT -->
+          <figure class="digital-card image-reveal">
+            <img
+              src="assets/images/digital-front-01.png"
+              alt="Elshadai Tegegn front-facing digital"
+              loading="lazy"
+            />
+            <figcaption>Front</figcaption>
+          </figure>
+
+          <!-- RIGHT PROFILE -->
+          <figure class="digital-card image-reveal digital-card--lower">
+            <img
+              src="assets/images/digital-profile-right.jpg"
+              alt="Elshadai Tegegn right profile digital"
+              loading="lazy"
+            />
+            <figcaption>Right profile</figcaption>
+          </figure>
+
+          <!-- LEFT PROFILE -->
+          <figure class="digital-card image-reveal digital-card--lower">
+            <img
+              src="assets/images/digital-profile-left.jpg"
+              alt="Elshadai Tegegn left profile digital"
+              loading="lazy"
+            />
+            <figcaption>Left profile</figcaption>
+          </figure>
+
+          <!-- BACK -->
+          <figure class="digital-card image-reveal">
+            <img
+              src="assets/images/back-full-body.png"
+              alt="Elshadai Tegegn back-facing digital"
+              loading="lazy"
+            />
+            <figcaption>Back</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ==================================================
+           MODEL DETAILS / ABOUT
+      ================================================== -->
+      <section class="stats section" id="about">
+        <div class="stats__portrait image-reveal">
+          <img
+            src="assets/images/digital-front-01.png"
+            alt="Portrait of Elshadai Tegegn"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="stats__copy">
+          <p class="eyebrow">MODEL DETAILS</p>
+
+          <h2>Elsh</h2>
+
+          <p class="bio">
+            Elshadai Tegegn is a Newark-based model working across runway,
+            fashion editorial, commercial, and lifestyle projects. Her
+            experience includes fashion shows, cultural fashion productions, and
+            studio portraiture. Available for bookings throughout New York City,
+            New Jersey, and beyond.
           </p>
 
-          <a class="circle-link magnetic" href="#work" aria-label="Explore portfolio">
-            <span>Explore</span>
-            <span class="circle-link__arrow">↘</span>
-          </a>
+          <dl class="measurements">
+            <div>
+              <dt>Height</dt>
+              <dd>5'7"</dd>
+            </div>
+
+            <div>
+              <dt>Bust</dt>
+              <dd>35"</dd>
+            </div>
+
+            <div>
+              <dt>Waist</dt>
+              <dd>29"</dd>
+            </div>
+
+            <div>
+              <dt>Hips</dt>
+              <dd>41"</dd>
+            </div>
+
+            <div>
+              <dt>Dress</dt>
+              <dd>US 6–8</dd>
+            </div>
+
+            <div>
+              <dt>Shoe</dt>
+              <dd>US 8.5</dd>
+            </div>
+
+            <div>
+              <dt>Hair</dt>
+              <dd>Black</dd>
+            </div>
+
+            <div>
+              <dt>Eyes</dt>
+              <dd>Dark Brown</dd>
+            </div>
+          </dl>
         </div>
-      </div>
+      </section>
 
-      <div class="hero__index">01 / PORTFOLIO</div>
-    </section>
-
-    <!-- MARQUEE -->
-    <section class="marquee" aria-hidden="true">
-      <div class="marquee__track">
-        <span>RUNWAY</span><i>✦</i><span>FASHION</span><i>✦</i><span>COMMERCIAL</span><i>✦</i><span>LIFESTYLE</span><i>✦</i>
-        <span>RUNWAY</span><i>✦</i><span>FASHION</span><i>✦</i><span>COMMERCIAL</span><i>✦</i><span>LIFESTYLE</span><i>✦</i>
-      </div>
-    </section>
-
-    <!-- SELECTED WORK -->
-    <section class="work section" id="work">
-      <div class="section-heading">
-        <p class="eyebrow">SELECTED WORK</p>
-        <h2>Presence.<br><em>Movement.</em> Story.</h2>
-        <p class="section-heading__aside">
-          Editorial images, cultural fashion, runway and brand-facing work.
-        </p>
-      </div>
-
-      <div class="editorial-grid">
-        <article class="project project--wide">
-          <a href="#runway" class="project__image image-reveal">
-            <img src="assets/images/pop-smoke-gala-01.jpg" alt="Pop Smoke Gala runway appearance" loading="lazy" />
-            <div class="project__hover">
-              <span>View story</span><span>↗</span>
-            </div>
-          </a>
-          <div class="project__meta">
-            <div>
-              <h3>Pop Smoke Gala</h3>
-              <p>Runway / Gala • 2026</p>
-            </div>
-            <span>01</span>
-          </div>
-        </article>
-
-        <article class="project project--tall">
-          <a href="#runway" class="project__image image-reveal">
-            <img src="assets/images/amazon-sustainability-01.JPG" alt="Amazon Sustainability Fashion Show" loading="lazy" />
-            <div class="project__hover">
-              <span>View story</span><span>↗</span>
-            </div>
-          </a>
-          <div class="project__meta">
-            <div>
-              <h3>Amazon Sustainability Fashion Show</h3>
-              <p>Fashion Editorial / Runway • June 2026</p>
-            </div>
-            <span>02</span>
-          </div>
-        </article>
-
-        <article class="project project--portrait">
-          <a href="#runway" class="project__image image-reveal">
-            <img src="assets/images/ecmaa-01.png" alt="Ethiopian Community Mutual Assistance Association fashion show" loading="lazy" />
-            <div class="project__hover">
-              <span>View story</span><span>↗</span>
-            </div>
-          </a>
-          <div class="project__meta">
-            <div>
-              <h3>ECMAA Ethiopian New Year Fashion Show</h3>
-              <p>Runway / Cultural Fashion • September 2025</p>
-            </div>
-            <span>03</span>
-          </div>
-        </article>
-
-        <article class="project project--landscape">
-          <a href="#digitals" class="project__image image-reveal">
-            <img src="assets/images/lifestyle-3.jpg" alt="Elshadai lifestyle portrait" loading="lazy" />
-            <div class="project__hover">
-              <span>View story</span><span>↗</span>
-            </div>
-          </a>
-          <div class="project__meta">
-            <div>
-              <h3>Lifestyle</h3>
-              <p>Commercial / Personality</p>
-            </div>
-            <span>04</span>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- RUNWAY: sticky horizontal story -->
-    <section class="runway" id="runway">
-      <div class="runway__sticky">
-        <div class="runway__intro">
-          <p class="eyebrow">WORK ARCHIVE</p>
-          <h2>Moments that<br>hold the room.</h2>
-          <p>Scroll to move through the runway timeline.</p>
+      <!-- ==================================================
+           CONTACT
+      ================================================== -->
+      <section class="contact" id="contact">
+        <div class="contact__bg">
+          <img
+            src="assets/images/hero.jpg"
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+          />
         </div>
 
-        <div class="runway__track">
-          <article class="runway-card">
-            <div class="runway-card__image">
-              <img src="assets/images/pop-smoke-gala-02.jpg" alt="Pop Smoke Gala runway look" loading="lazy" />
-            </div>
-            <div class="runway-card__copy">
-              <span>2026</span>
-              <h3>Pop Smoke Gala</h3>
-              <p>Runway model</p>
-            </div>
-          </article>
+        <div class="contact__overlay"></div>
 
-          <article class="runway-card">
-            <div class="runway-card__image">
-              <img src="assets/images/amazon-sustainability-02.JPG" alt="Amazon Sustainability Fashion Show runway look" loading="lazy" />
-            </div>
-            <div class="runway-card__copy">
-              <span>JUN 2026</span>
-              <h3>Amazon Sustainability</h3>
-              <p>Editorial look</p>
-            </div>
-          </article>
+        <div class="contact__content">
+          <p class="eyebrow">BOOKINGS / COLLABORATIONS</p>
 
-          <article class="runway-card">
-            <div class="runway-card__image">
-              <img src="assets/images/amazon-sustainability-04.JPG" alt="Amazon Sustainability Fashion Show runway look" loading="lazy" />
-            </div>
-            <div class="runway-card__copy">
-              <span>JUN 2026</span>
-              <h3>Amazon Sustainability</h3>
-              <p>Behind the runway</p>
-            </div>
-          </article>
+          <h2>
+            <span>Let’s make</span>
+            <span class="script-like"> something unforgettable. </span>
+          </h2>
 
-          <article class="runway-card">
-            <div class="runway-card__image">
-              <img src="assets/images/ecmaa-02.png" alt="ECMAA Ethiopian New Year fashion show look" loading="lazy" />
-            </div>
-            <div class="runway-card__copy">
-              <span>SEP 2025</span>
-              <h3>ECMAA Ethiopian New Year</h3>
-              <p>Ethiopian New Year runway</p>
-            </div>
-          </article>
-
-          <article class="runway-card">
-            <div class="runway-card__image">
-              <img src="assets/images/ecmaa-03.png" alt="ECMAA Ethiopian New Year fashion show look" loading="lazy" />
-            </div>
-            <div class="runway-card__copy">
-              <span>SEP 2025</span>
-              <h3>ECMAA Ethiopian New Year</h3>
-              <p>Cultural fashion look</p>
-            </div>
-          </article>
-
-          <article class="runway-card">
-            <div class="runway-card__image">
-              <img src="assets/images/lifestyle-1.jpg" alt="lifestyle look" loading="lazy" />
-            </div>
-            <div class="runway-card__copy">
-              <span>MAY 2026</span>
-              <h3>Lifestyle</h3>
-            </div>
-          </article>
-
-          <article class="runway-card">
-            <div class="runway-card__image">
-              <img src="assets/images/lifestyle-2.JPG" alt="lifestyle look" loading="lazy" />
-            </div>
-            <div class="runway-card__copy">
-              <span>JULY 2026</span>
-              <h3>Lifestyle</h3>
-            </div>
-          </article>
-
-          <article class="runway-card runway-card--quote">
-            <div>
-              <span class="quote-mark">“</span>
-              <p>Different rooms.<br>Same presence.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- DIGITALS -->
-    <section class="digitals section" id="digitals">
-      <div class="section-heading section-heading--compact">
-        <p class="eyebrow">DIGITALS / POLAROIDS</p>
-        <h2>Clean. Current.<br><em>Unfiltered.</em></h2>
-      </div>
-
-      <div class="digitals-grid">
-        <figure class="digital-card image-reveal digital-card--lower">
-          <img src="assets/images/digital-profile-right.jpg" alt="Profile digital" loading="lazy" />
-          <figcaption>Right profile</figcaption>
-        </figure>
-        <figure class="digital-card image-reveal digital-card--lower">
-          <img src="assets/images/digital-profile-left.jpg" alt="Profile digital" loading="lazy" />
-          <figcaption>Left profile</figcaption>
-        </figure>
-        <figure class="digital-card image-reveal">
-          <img src="assets/images/back-full-body.png" alt="Back digital" loading="lazy" />
-          <figcaption>Back</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <!-- STATS -->
-    <section class="stats section" id="about">
-      <div class="stats__portrait image-reveal">
-        <img src="assets/images/digital-front-01.png" alt="Beauty portrait of Elshadai Tegegn" loading="lazy" />
-      </div>
-
-      <div class="stats__copy">
-        <p class="eyebrow">MODEL DETAILS</p>
-        <h2>Elsh</h2>
-        <p class="bio">
-          Newark-based model working across fashion, commercial, lifestyle and runway.
-          Available throughout New York City, New Jersey and for travel.
-        </p>
-
-        <dl class="measurements">
-          <div><dt>Height</dt><dd>5'7"</dd></div>
-          <div><dt>Bust</dt><dd>35"</dd></div>
-          <div><dt>Waist</dt><dd>29"</dd></div>
-          <div><dt>Hips</dt><dd>41"</dd></div>
-          <div><dt>Dress</dt><dd>US 6–8</dd></div>
-          <div><dt>Shoe</dt><dd>US 8.5</dd></div>
-          <div><dt>Hair</dt><dd>Black</dd></div>
-          <div><dt>Eyes</dt><dd>Dark Brown</dd></div>
-        </dl>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="contact" id="contact">
-      <div class="contact__bg">
-        <img src="assets/images/hero.jpg" alt="" aria-hidden="true" />
-      </div>
-
-      <div class="contact__overlay"></div>
-
-      <div class="contact__content">
-        <p class="eyebrow">BOOKINGS / COLLABORATIONS</p>
-        <h2>
-          <span>Let’s make</span>
-          <span class="script-like">something unforgettable.</span>
-        </h2>
-
-        <div class="contact__actions">
-          <a href="mailto:elshadaikassutegegn@gmail.com" class="pill magnetic">Email me <span>↗</span></a>
-          <a href="https://instagram.com/pour_qua" class="pill pill--ghost magnetic" target="_blank" rel="noopener">Instagram <span>↗</span></a>
-        </div>
-
-        <div class="contact__footer">
-          <span>Newark, New Jersey</span>
-          <span>NYC • NJ • Travel</span>
-          <span>© <span id="year"></span> Elsh </span>
-          <span>
-            Designed & built by
-            <a href="https://elshadaik.github.io/" class="footer-dev-link">
-              Elsh ↗
+          <div class="contact__actions">
+            <a
+              href="mailto:elshadaikassutegegn@gmail.com"
+              class="pill magnetic"
+            >
+              Email me <span>↗</span>
             </a>
-          </span>
-        </div>
-      </div>
-    </section>
-  </main>
 
-  <!-- GSAP -->
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-  <script src="script.js"></script>
-</body>
+            <a
+              href="https://instagram.com/pour_qua"
+              class="pill pill--ghost magnetic"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram <span>↗</span>
+            </a>
+          </div>
+
+          <div class="contact__footer">
+            <span>Newark, New Jersey</span>
+
+            <span>NYC • NJ • Travel</span>
+
+            <span> © <span id="year"></span> Elsh </span>
+
+            <span>
+              Designed &amp; built by
+              <a
+                href="https://elshadaik.github.io/"
+                class="footer-dev-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Elsh ↗
+              </a>
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================================================
+         GSAP / SCROLLTRIGGER / CUSTOM JAVASCRIPT
+    ================================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
